@@ -1,0 +1,351 @@
+
+
+ /* for desktop */
+ @media(min-width:1440px){
+    /* header */
+header{
+    width: 100%;
+   display: flex;
+   position: fixed;
+   background-color: white;
+   margin-top: -20px;
+ }
+
+.logo{
+   margin-left: 20px;  
+}
+
+.logo img{
+    width: 100px;
+    max-height:200px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    padding-left: 25px;
+} 
+ 
+ul{  
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{ 
+    margin: 20px;
+    color: rgb(12, 12, 12); 
+    justify-content: center; 
+    padding-left: 10px;
+}
+
+
+
+
+.header-buttons{
+    display: flex;
+    padding-left: 30px;
+}
+
+.header-buttons button{
+    width: auto;
+    border:none;
+    background-color: transparent;
+    font-size: 18px;
+    color: rgba(13, 13, 13, 0.94) ;
+    margin-left: 30px;
+}
+.header-buttons button:hover{
+    cursor: pointer;
+}
+
+#loginbtn{
+    color: blue;
+}
+
+#contactinfo{
+     height: 45px;
+     border: 1px solid rgb(241, 8, 8);
+     border-radius: 15px;
+     color: rgb(247, 6, 6);
+     margin-top: 35px;
+}
+#contactinfo:hover{
+    background-color: coral;
+    color: white;
+}
+
+#signup{
+    height:45px;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    margin-top:35px;
+    
+}
+#signup:hover{
+    background-color: rgb(82, 22, 22);
+}
+
+/* main */
+main{
+    margin: 15px;
+    padding-top: 80px;
+    width: 1440px;
+}
+.section1{
+    display: flex;
+    padding-top: 40px;
+    height: 300px;
+    gap: 70px;
+    background-color: rgb(238, 243, 243);
+}
+.sec img{
+    width: 200px;
+    height: 150px;
+    margin-left: 200px;
+}
+
+h5{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+#para{
+    font-size: 18px;
+}
+
+#btn1{
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(5, 86, 130);
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+}
+#btn1:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.section2{
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: -100px;
+    width: 900px;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    background-color: white;
+}
+
+.companyinfo h3{
+    font-size: 40px;
+    margin: 0;
+    padding: 0%;
+;   color:green ;
+}
+.companyinfo h5{
+    font-size: 25px;
+    color: rgb(47, 47, 47);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+}
+.btn2{
+    padding-top: 20px;
+    margin-left: 10px ;
+
+}
+.btn2 button{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(8, 115, 203);
+    background-color: white;
+    color: rgb(10, 102, 239);
+    font-size: 15px;
+}
+.btn2 button:hover{
+    background-color: grey;
+    color: black;
+}
+
+#graphimg{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.navbar2{
+    width: 600px;
+    margin-left: 200px;
+}
+.navbar2 ul{
+    display: flex;
+    margin-left: -35px;
+}
+.navbar2 ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(59, 57, 57);
+    margin: 10px;
+    padding-right: 30px;
+}
+
+
+
+.section3{
+    display: flex;
+    gap: 10px;
+     border: 1px solid grey;
+    border-radius: 20px;
+    margin-left: 220px;
+    width: 900px;
+    padding: 40px;
+    background-color: white;
+}
+.subsec1{
+    width: 500px;
+    height: auto;
+}
+.subsec2{
+    width: 300px;
+    height: auto;
+    margin-left: 80px;
+
+}
+.subsec2 h2{
+    color: brown;
+
+    
+}
+.boxes{
+     display: flex;
+     
+}
+.boxs{
+    width: 100px;
+    height: 130px;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin: 2px;
+}
+.boxs h3{
+    font-size: 15PX;
+    margin-left: 8px;
+}
+.boxs p{
+    margin-left: 8px;
+}
+.boxs button{
+    border-radius:20px ;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+
+/* footerbox */
+footer{
+    background-color: rgb(12, 14, 24);
+    width: 98%;
+    height: 350px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-boxes{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 30%;
+    padding-left: 20px;
+    margin: 20px;
+    }
+ }
+
+/* for mobile */
+/* @media(max-width:1439px){
+    header{
+     position: fixed;
+    width: 100%;
+   display: flex;
+   background-color: white;
+   margin-top: -20px;
+ }
+
+.logo img{
+
+    width: 40px;
+    max-height:40px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 25px;
+    
+}
+
+.navbar{
+    display: flex;
+    margin-left: -30px;
+
+} 
+ 
+ul{  
+    list-style-type: none;
+    display: flex;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{ 
+    margin-left: 8px;
+    margin-top: 30px;
+    color: rgb(12, 12, 12); 
+}
+
+.header-buttons{
+    display: flex;
+    margin-left: -200px;
+    padding-top: 60px;
+    
+}
+
+.header-buttons button{
+    width: auto;
+    border:none;
+    background-color: transparent;
+    font-size: 10px;
+    color: rgba(13, 13, 13, 0.94) ;
+
+}
+
+#loginbtn{
+    color: blue;
+}
+
+#contactinfo{
+     height: 20px;
+     border: 1px solid rgb(241, 8, 8);
+     border-radius: 15px;
+     color: rgb(247, 6, 6);
+    
+}
+
+
+#signup{
+    height:20px;
+    background-color: crimson;
+    border-radius: 15px;
+    color: white;
+    margin-left: 2px;
+    
+}
+
+
+/* main */
+/* /
