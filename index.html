@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company profile page</title>
-    <link rel="stylesheet" href="..\internshala_task\css\style.css">
+    <link rel="stylesheet" href="..\assignment_task\css\style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
@@ -25,10 +25,10 @@
             </ul>
         </nav>
         <div class="header-buttons">
-            <button><i class="fa-brands fa-sistrix"></i>  search</i></button>
-            <button id="loginbtn">Login</button>
-            <button id="contactinfo">Contact sales</button>
-            <button id="signup">Sign up</button>
+            <button type="button"><i class="fa-brands fa-sistrix"></i>  search</i></button>
+            <button type="button" id="loginbtn">Login</button>
+            <button type="button" id="contactinfo">Contact sales</button>
+            <button type="button" id="signup">Sign up</button>
              
         </div>
     </header>
@@ -42,7 +42,7 @@
             <div>
                 <h5>Creative</h5>
                 <p id="para">this is a creative page created by me. india</p>
-                <button id="btn1">view company info for free</button>
+                <button type="button" id="btn1">view company info for free</button>
             </div>
         </div>
 <!-- overview -->
@@ -54,8 +54,8 @@
                 <h5>revenue - $3bilion</h5>
                 <h5>Industry</h5>
                 <div class="btn2">
-                    <button><a href="" target="_blank">company stock</a></button>
-                    <button><a href="" target="_blank">Retail</a></button>
+                    <button type="button"><a  target="_blank">company stock</a></button>
+                    <button type="button"><a  target="_blank">Retail</a></button>
                 </div>
             </div>
             <img src="../internshala_task/images/Sales-graph-Pipedrive-combination-chart-example.webp" alt="graphimg" id="graphimg">
@@ -86,22 +86,22 @@
                     <div class="boxs">
                        <h3>A-mark</h3>
                         <p>3,567 maneger</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                    </div>
                    <div class="boxs">
                     <h3>b-mark</h3>
                         <p>98 freshers</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                     <div class="boxs">
                         <h3>c-mark</h3>
                         <p>4,000 employee</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                     <div class="boxs">
                         <h3>d-mark</h3>
                         <p>16,597 branch</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                 </div>
             </div>
@@ -121,22 +121,22 @@
                     <div class="boxs">
                        <h3>A-mark</h3>
                         <p>3,567</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                    </div>
                    <div class="boxs">
                     <h3>b-mark</h3>
                         <p>98</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                     <div class="boxs">
                         <h3>c-mark</h3>
                         <p>4,000</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                     <div class="boxs">
                         <h3>d-mark</h3>
                         <p>16,597</p>
-                        <button>view</button>
+                        <button type="button">view</button>
                     </div>
                 </div>
             </div>
@@ -150,10 +150,10 @@
                 <h4>About Us</h4>
                 <p>There are several prominent companies named InGo. Since the name is shared across different industries, please check if you are looking for one of these main organizations.</p>
                     <div class="media" id="media">
-                        <a href="https://www.instagram.com/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.youtube.com/" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
-                        <a href="https://x.com/" target="_blank" ><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/" title="brand" rel="noopener" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/" title="brand" rel="noopener" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/" title="brand" rel="noopener" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://x.com/" title="brand" rel="noopener" target="_blank" ><i class="fa-brands fa-x-twitter"></i></a>
                     </div>
             </div>
             <div class="box">
@@ -172,15 +172,15 @@
                 <br><br>
                 <form>
                     <label for="name">Name *</label><br>
-                    <input type="text"><br>
+                    <input type="text" placeholder="enter your name"><br>
 
                     <label for="email">Email *</label><br>
-                    <input type="text"><br>
+                    <input type="text" placeholder="enter your email"><br>
 
                     <label for="problem">How can I help you? *</label><br>
-                    <input type="text" id="textarea"><br>
+                    <input type="text" id="textarea" placeholder="any help? write here"><br>
 
-                    <button id="submit">Submit</button>
+                    <button type="button" id="submit">Submit</button>
                 </form>
             </div>
         </div>
